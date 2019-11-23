@@ -8,6 +8,8 @@ An easy-to-use algorithm timer.
 We use a context-manager and `with` in Python to give an convinent way to test
 a specific block of code. Just see the following examples.
 
+Note that we design this plot function here to test some algorithms' runing time and you can use it to test(and plot) the time of any block of code with minor change in source code(the `TimerPloter` class, specifically)
+
 ## Eaxmples
 
 ### Fibnacci
@@ -73,7 +75,7 @@ And `Timer.png`, a plot of the data.
 ![](https://github.com/shenxiangzhuang/algo-timer/raw/master/examples/fibnacci/Timer.png)
 
 
-Note that we design this plot function here to test some algorithms' runing time and you can use it to test any block of code with minor change in source code(the `TimerPloter` class, specifically)
+
 
 ### Classification
 ```python

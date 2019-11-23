@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="algo-timer", # Replace with your own username
+    name="algo-timer",
     version="0.0.2",
     author="Xiangzhuang Shen",
     author_email="datahonor@gmail.com",
