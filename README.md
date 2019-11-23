@@ -70,7 +70,7 @@ fibMemo, 35, 0.0
 ```
 
 And `Timer.png`, a plot of the data.
-![](.examples/../examples/fibnacci/Timer.png)
+![](https://github.com/shenxiangzhuang/algo-timer/raw/master/examples/fibnacci/Timer.png)
 
 
 Note that we design this plot function here to test some algorithms' runing time and you can use it to test any block of code with minor change in source code(the `TimerPloter` class, specifically)
@@ -140,4 +140,4 @@ KNN(K=5), Test, 0.01
 ```
 
 File `Timer.png`
-![](examples/classification/Timer.png)
+![](https://github.com/shenxiangzhuang/algo-timer/raw/master/examples/classification/Timer.png)
