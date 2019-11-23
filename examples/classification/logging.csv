@@ -1,0 +1,6 @@
+GaussianNB, Train, 0.001
+GaussianNB, Test, 0.001
+KNN(K=3), Train, 0.019
+KNN(K=3), Test, 0.019
+KNN(K=5), Train, 0.001
+KNN(K=5), Test, 0.01
