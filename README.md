@@ -1,8 +1,22 @@
+![](logo.png)
+
 # Algorithm Timer
+
 
 ## Overview
 
 An easy-to-use algorithm timer.
+
+
+## Install
+
+[algo-timer in pypi](https://pypi.org/project/algo-timer/).
+
+You can install `algotimer` with `pip`:
+>pip install algo-timer
+
+Note we use `pandas` `matplotlib`, and `seaborn` to plot the figure, so make sure you have
+installed these packages in you environment before you use `algotimer`.
 
 ## Mechanism
 We use a context-manager and `with` in Python to give an convinent way to test
