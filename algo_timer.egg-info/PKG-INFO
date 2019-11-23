@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: algo-timer
-Version: 0.0.2
+Version: 0.0.3
 Summary: An easy-to-use algorithms timer.
 Home-page: https://github.com/shenxiangzhuang/algo-timer
 Author: Xiangzhuang Shen
@@ -15,6 +15,8 @@ Description: # Algorithm Timer
         ## Mechanism
         We use a context-manager and `with` in Python to give an convinent way to test
         a specific block of code. Just see the following examples.
+        
+        Note that we design this plot function here to test some algorithms' runing time and you can use it to test(and plot) the time of any block of code with minor change in source code(the `TimerPloter` class, specifically)
         
         ## Eaxmples
         
@@ -78,10 +80,10 @@ Description: # Algorithm Timer
         ```
         
         And `Timer.png`, a plot of the data.
-        ![](.examples/../examples/fibnacci/Timer.png)
+        ![](https://github.com/shenxiangzhuang/algo-timer/raw/master/examples/fibnacci/Timer.png)
         
         
-        Note that we design this plot function here to test some algorithms' runing time and you can use it to test any block of code with minor change in source code(the `TimerPloter` class, specifically)
+        
         
         ### Classification
         ```python
@@ -148,7 +150,7 @@ Description: # Algorithm Timer
         ```
         
         File `Timer.png`
-        ![](examples/classification/Timer.png)
+        ![](https://github.com/shenxiangzhuang/algo-timer/raw/master/examples/classification/Timer.png)
         
 Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3
